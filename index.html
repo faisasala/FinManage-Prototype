@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinManage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="flex flex-col min-h-screen">
+        <header class="bg-primary text-primary-foreground py-4 px-6 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-2 font-bold text-lg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6">
+                    <path d="m8 3 4 8 5-5 5 15H2L8 3z"></path>
+                </svg>
+                FinManage
+            </a>
+            <nav class="hidden md:flex items-center gap-6">
+                <a href="#features" class="hover:underline">Features</a>
+                <a href="#pricing" class="hover:underline">Pricing</a>
+                <a href="#about" class="hover:underline">About</a>
+                <a href="#contact" class="hover:underline">Contact</a>
+            </nav>
+            <div class="flex items-center gap-4">
+                <button class="outline">Sign In</button>
+                <button>Sign Up</button>
+            </div>
+        </header>
+        <main class="flex-1">
+            <section class="bg-primary py-12 md:py-24 lg:py-32">
+                <div class="container px-4 md:px-6 grid md:grid-cols-2 gap-8 items-center">
+                    <div class="space-y-4">
+                        <h1 class="text-4xl md:text-5xl font-bold text-primary-foreground">Take Control of Your Finances</h1>
+                        <p class="text-lg md:text-xl text-primary-foreground">FinManage is a comprehensive financial management platform that simplifies your financial life.</p>
+                        <div class="flex flex-col sm:flex-row gap-2">
+                            <button class="w-full sm:w-auto">Get Started</button>
+                            <button class="outline w-full sm:w-auto">Learn More</button>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="placeholder.svg" alt="FinManage Dashboard" width="600" height="400" class="rounded-lg">
+                    </div>
+                </div>
+            </section>
+            <section id="features" class="py-12 md:py-24 lg:py-32">
+                <div class="container px-4 md:px-6">
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h2 class="text-3xl md:text-4xl font-bold">Unified Financial Dashboard</h2>
+                            <p class="text-muted-foreground mt-4 md:text-lg">FinManage aggregates your financial data from multiple sources, giving you a complete view of your finances in one place.</p>
+                            <div class="mt-6">
+                                <button class="outline">Explore Dashboard</button>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="placeholder.svg" alt="Unified Financial Dashboard" width="600" height="400" class="rounded-lg">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="pricing" class="bg-muted py-12 md:py-24 lg:py-32">
+                <div class="container px-4 md:px-6">
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <img src="placeholder.svg" alt="Personalized Financial Insights" width="600" height="400" class="rounded-lg">
+                        </div>
+                        <div>
+                            <h2 class="text-3xl md:text-4xl font-bold">Personalized Financial Insights</h2>
+                            <p class="text-muted-foreground mt-4 md:text-lg">FinManage leverages your financial data to provide tailored insights, budgeting suggestions, and goal-tracking tools to help you make informed decisions.</p>
+                            <div class="mt-6">
+                                <button class="outline">Explore Insights</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="about" class="py-12 md:py-24 lg:py-32">
+                <div class="container px-4 md:px-6">
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h2 class="text-3xl md:text-4xl font-bold">Automated Financial Management</h2>
+                            <p class="text-muted-foreground mt-4 md:text-lg">FinManage automates routine financial tasks, such as bill payments and expense tracking, to help you save time and stay on top of your finances.</p>
+                            <div class="mt-6">
+                                <button class="outline">Explore Automation</button>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="placeholder.svg" alt="Automated Financial Management" width="600" height="400" class="rounded-lg">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="bg-muted py-12 md:py-24 lg:py-32">
+                <div class="container px-4 md:px-6">
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <img src="placeholder.svg" alt="Collaborative Financial Planning" width="600" height="400" class="rounded-lg">
+                        </div>
+                        <div>
+                            <h2 class="text-3xl md:text-4xl font-bold">Collaborative Financial Planning</h2>
+                            <p class="text-muted-foreground mt-4 md:text-lg">FinManage enables you to securely share financial information and collaborate with financial advisors, accountants, or family members, fostering a collaborative approach to financial planning.</p>
+                            <div class="mt-6">
+                                <button class="outline">Explore Collaboration</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="py-12 md:py-24 lg:py-32">
+                <div class="container px-4 md:px-6 text-center">
+                    <h2 class="text-3xl md:text-4xl font-bold">Secure and Reliable Financial Management</h2>
+                    <p class="text-muted-foreground mt-4 md:text-lg">FinManage ensures the highest standards of data security and privacy, giving you peace of mind when managing your sensitive financial information.</p>
+                    <div class="mt-6">
+                        <button class="outline">Learn More</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-primary text-primary-foreground py-6 px-4 md:px-6">
+            <div class="container flex flex-col md:flex-row items-center justify-between">
+                <p class="text-sm">&copy; 2024 FinManage</p>
+                <nav class="flex items-center gap-4 md:gap-6 mt-4 md:mt-0">
+                    <a href="#" class="hover:underline">Terms of Service</a>
+                    <a href="#" class="hover:underline">Privacy Policy</a>
+                    <a href="#contact" class="hover:underline">Contact</a>
+                </nav>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
